@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JUPITER | User Dashboard</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">JUPITER</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="UserHome.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="viewtrainfwd">View Trains</a></li>
+        <li class="nav-item"><a class="nav-link" href="searchtrainfwd">Search Train</a></li>
+        <li class="nav-item"><a class="nav-link" href="booktrainfwd">Book Ticket</a></li>
+        <li class="nav-item"><a class="nav-link text-warning" href="userlogout">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Welcome Section -->
+<div class="container mt-5">
+  <div class="row">
+    <div class="col text-center">
+      <h2 class="fw-bold">Welcome to JUPITER 🚆</h2>
+      <p class="text-muted">
+        Your smart and secure train ticket booking platform
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Feature Cards -->
+<div class="container mt-4">
+  <div class="row g-4">
+
+    <div class="col-md-3">
+      <div class="card shadow-sm h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">🚄 View Trains</h5>
+          <p class="card-text">Check all available trains.</p>
+          <a href="viewtrainfwd" class="btn btn-primary btn-sm">Open</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card shadow-sm h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">🔍 Search Train</h5>
+          <p class="card-text">Search by source and destination.</p>
+          <a href="searchtrainfwd" class="btn btn-success btn-sm">Search</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card shadow-sm h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">🎟 Book Ticket</h5>
+          <p class="card-text">Reserve seats instantly.</p>
+          <a href="booktrainfwd" class="btn btn-warning btn-sm">Book</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card shadow-sm h-100 text-center">
+        <div class="card-body">
+          <h5 class="card-title">❌ Cancel Ticket</h5>
+          <p class="card-text">Cancel booked tickets.</p>
+          <a href="cancelticketfwd" class="btn btn-danger btn-sm">Cancel</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center text-muted mt-5">
+  <p>© 2026 JUPITER – Train Management System</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
